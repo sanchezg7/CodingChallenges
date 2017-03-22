@@ -2,7 +2,6 @@
 public class Solution {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] A={3,8,9,7,6};
 		System.out.println(solution(A, 3));
 	}

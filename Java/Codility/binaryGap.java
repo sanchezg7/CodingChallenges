@@ -3,12 +3,10 @@ package binaryGap;
 public class Solution {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(solution(5));
 	}
 	
 	public static int solution(int N) {
-        // write your code in Java SE 8
 		
         String payload = convertIntToBinary(N);
         String[] tokens = payload.split("1");
@@ -34,7 +32,6 @@ public class Solution {
         return Integer.toBinaryString(number).trim();   
     }
     
-    //call zero length calc, update if max
     
     //calculate length of 0 occurances until hits 1
     private static int calculateBinaryGapLength(String binaryGap){
